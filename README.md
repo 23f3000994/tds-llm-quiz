@@ -19,15 +19,6 @@ pinned: false
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge)
 
-<img src="https://github.com/user-attachments/assets/3ac9dd9c-2581-404c-ba16-98295a054008" width="100%">
-
-
-
-
-### 🤖 An intelligent, end-to-end autonomous agent that solves the **IIT Madras TDS: Tools in Data Science – LLM Analysis Quiz Project**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayusman-samasi/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hariswar8018)
 
 </div>
 
@@ -706,7 +697,7 @@ We welcome contributions! Here's how you can help:
 ```
 MIT License
 
-Copyright (c) 2025 Ayusman Samasi (Hariswar)
+Copyright (c) 2025 Vaidik Dave
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
