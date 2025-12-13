@@ -17,6 +17,8 @@ load_dotenv()
 
 EMAIL = os.getenv("EMAIL")
 SECRET = os.getenv("SECRET")
+AIPIPE_API_KEY = os.getenv("AIPIPE_API_KEY")
+AIPIPE_BASE_URL = os.getenv("AIPIPE_BASE_URL", "https://aipipe.org/openrouter/v1")
 
 RECURSION_LIMIT = 5000
 MAX_TOKENS = 60000
@@ -45,8 +47,10 @@ rate_limiter = InMemoryRateLimiter(
 )
 
 llm = init_chat_model(
-    model_provider="google_genai",
-    model="gemini-2.5-flash",
+    model_provider="openai",
+    model="gpt-4o-mini",  # AI Pipe compatible model
+    api_key=AIPIPE_API_KEY,
+    base_url=AIPIPE_BASE_URL,
     rate_limiter=rate_limiter
 ).bind_tools(TOOLS)
 
